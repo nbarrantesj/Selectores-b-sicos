@@ -1,0 +1,68 @@
+/* Selector universal */
+* {
+    margin: 1;
+    padding: 1;
+}
+
+/* Selector de tipo o etiqueta */
+h1 {
+	color: purple;
+}
+h2 {
+	color: pink;
+} 
+p {
+	color: tomato;
+}
+
+
+/* Selector de tipo descendente */
+ p em {
+	color: red;
+} 
+
+/* Selector Clase */
+.selector1 {
+	color: aqua;
+}
+.selector2 {
+	color:blue;
+}
+.selector3 {
+	color: coral;
+}
+.selector4 {
+	color: darkorchid;
+}
+.selector5 {
+	color: forestgreen;
+}
+.selector6 {
+	color:gold;
+}
+
+/* Selector id */
+#universal {
+    font-family: 'Courier New', Courier, monospace;
+}
+#etiqueta {
+    font-family: cursive;
+}
+#descendente {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#clase {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#ID {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#combinacion {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Selector Multiple, combinacion */
+h3,
+#CSS {
+	color: blueviolet;
+} 
